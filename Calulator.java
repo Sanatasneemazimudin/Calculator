@@ -3,13 +3,13 @@ public class Calculator
 {
     public static void main(String[] args) 
     {
-        Scanner s = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter first number: ");
-        double num1 = s.nextDouble();
+        double num1 = sc.nextDouble();
         System.out.print("Enter second number: ");
-        double num2 = s.nextDouble();
+        double num2 = sc.nextDouble();
         System.out.print("Choose an operator (+, -, *, /): ");
-        char operator = s.next().charAt(0);
+        char operator = sc.next().charAt(0);
         double result;
         switch (operator) 
         {
@@ -41,4 +41,5 @@ public class Calculator
         }
     }
 }
+
 
