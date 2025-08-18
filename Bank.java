@@ -26,9 +26,9 @@ class Bank
     public static void main(String[] args) 
     {
         System.out.println("Sana Tasneem Azimudin-2024503007");
-        Scanner sc = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         System.out.println("Enter the number of accounts:");
-        totalAccounts = sc.nextInt();
+        totalAccounts = s.nextInt();
         for (int i = 0; i < totalAccounts; i++)
         {
             float balance;
@@ -47,3 +47,4 @@ class Bank
 
     }
 }
+
