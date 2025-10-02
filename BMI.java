@@ -5,11 +5,11 @@ class BMI
       public static void main(String[] args)
       { 
              System.out.println("Sana Tasneem Azimudin-2024503007");
-             Scanner sc=new Scanner(System.in);
+             Scanner s=new Scanner(System.in);
              double kgs,mtrs;
              System.out.println("Enter your weight(in kgs) and height(in meters):");
-             kgs=sc.nextDouble();
-             mtrs=sc.nextDouble();
+             kgs=s.nextDouble();
+             mtrs=s.nextDouble();
              double bmi=kgs/(mtrs*mtrs);
              if(18.5<=bmi&&bmi<25)
              {
@@ -26,3 +26,4 @@ class BMI
       }
 }  
      
+
