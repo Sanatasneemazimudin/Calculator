@@ -15,7 +15,8 @@ class ConstChain {
 }
     public static void main(String[] args) {
          System.out.println("Sana Tasneem Azimudin-2024503007");
-        ConstChain obj = new ConstChain();
-        obj.display();
+        ConstChain ob = new ConstChain();
+        ob.display();
 }
+
 }
