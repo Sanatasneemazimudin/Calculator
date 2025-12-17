@@ -1,4 +1,4 @@
-class EmailValidator {
+class EmailValidator{
     public static void validateEmail(String email) {
         int atIndex = email.indexOf('@');
         int lastAtIndex = email.lastIndexOf('@');
@@ -26,3 +26,4 @@ class EmailValidator {
         validateEmail(email);
     }
 }
+
