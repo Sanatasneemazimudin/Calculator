@@ -3,7 +3,7 @@ class Vaccine
 {
      public static void main(String args[])
      {
-        System.out.println("Sana Tasneem Azimudin-2024503007");
+        System.out.println("Sana Tasneem Azimudin=2024503007");
         Scanner sc=new Scanner(System.in);
         int age,appno;
         System.out.println("Enter your age:");
@@ -43,4 +43,5 @@ class Vaccine
             System.out.println("Candidate is not eligible for the vaccine.");
 }
 }
+
 }
