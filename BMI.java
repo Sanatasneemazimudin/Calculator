@@ -7,7 +7,7 @@ class BMI
              System.out.println("Sana Tasneem Azimudin=2024503007");
              Scanner s=new Scanner(System.in);
              double kgs,mtrs;
-             System.out.println("Enter your weight(in kgs) and height(in meters):");
+             System.out.println("Enter your weight(in kgs) and Height(in meters):");
              kgs=s.nextDouble();
              mtrs=s.nextDouble();
              double bmi=kgs/(mtrs*mtrs);
@@ -26,5 +26,6 @@ class BMI
       }
 }  
      
+
 
 
