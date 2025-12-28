@@ -16,7 +16,7 @@ class EmailValidator{
             System.out.println("Invalid email: domain must end with .com, .in, or .edu.");
             return;
         }
-        System.out.println("Valid email!");
+        System.out.println("Valid email");
         System.out.println("Username: " + username);
         System.out.println("Domain: " + domain);
     }
@@ -26,5 +26,6 @@ class EmailValidator{
         validateEmail(email);
     }
 }
+
 
 
