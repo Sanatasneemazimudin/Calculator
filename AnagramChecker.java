@@ -12,7 +12,7 @@ public class AnagramChecker {
     }
     public static void main(String[] args) {
         System.out.println("Sana Tasneem Azimudin=2024503007");
-        String s1 = "JAVA PROGRAMMING";
+        String s1 = "JAVA PROGRAMMING!!";
         String s2 = "Language";
         if (isAnagram(s1, s2)) {
             System.out.println(s1 + " and " + s2 + " are anagrams.");
@@ -22,6 +22,7 @@ public class AnagramChecker {
         }
     }
 }
+
 
 
 
