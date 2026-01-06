@@ -4,7 +4,7 @@ class BMI
 {
       public static void main(String[] args)
       { 
-             System.out.println("Sana Tasneem Azimudin=2024503007");
+             System.out.println("Sana Tasneem Azimudin-2024503007");
              Scanner s=new Scanner(System.in);
              double kgs,mtrs;
              System.out.println("Enter your weight(in kgs) and Height (in meter):");
@@ -26,6 +26,7 @@ class BMI
       }
 }  
      
+
 
 
 
