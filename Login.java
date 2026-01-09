@@ -33,7 +33,7 @@ class Login
                 char pass = s.next().charAt(0);
                 if ((admininput == 'n' || admininput == 'N') && !(pass == 'p' || pass == 'P')) 
                 {
-                    System.out.println("Login unsuccessful.");
+                    System.out.println("Login unsuccessful");
                     count++;
                 }
             }
@@ -41,6 +41,7 @@ class Login
         System.out.println("Number of failed login attempts:"+count);
      }
 }
+
 
 
 
