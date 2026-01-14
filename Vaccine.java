@@ -11,7 +11,7 @@ class Vaccine
         if(age>18 && age<=65)
         {
             System.out.println("Candidate is eligable for the vaccine");
-            System.out.println("Enter the appointment number:");
+            System.out.println("Enter the appointment number=");
             appno=sc.nextInt();
             if(appno>99||appno<999)
             {
@@ -45,3 +45,4 @@ class Vaccine
 }
 
 }
+
