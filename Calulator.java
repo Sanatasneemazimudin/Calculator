@@ -8,7 +8,7 @@ public class Calculator
         double num1 = sc.nextDouble();
         System.out.print("Enter second number= ");
         double num2 = sc.nextDouble();
-        System.out.print("Choose an operator (+, -, *, /): ");
+        System.out.print("Choose an operator (+, -, *, /)= ");
         char operator = sc.next().charAt(0);
         double result;
         switch (operator) 
@@ -41,6 +41,7 @@ public class Calculator
         }
     }
 }
+
 
 
 
