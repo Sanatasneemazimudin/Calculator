@@ -11,7 +11,7 @@ public class AnagramChecker {
         return Arrays.equals(arr1, arr2);
     }
     public static void main(String[] args) {
-        System.out.println("Sana Tasneem Azimudin-2024503007");
+        System.out.println("Sana Tasneem Azimudin=2024503007");
         String s1 = "JAVA PROGRAMMING!!!!";
         String s2 = "Language";
         if (isAnagram(s1, s2)) {
@@ -22,6 +22,7 @@ public class AnagramChecker {
         }
     }
 }
+
 
 
 
