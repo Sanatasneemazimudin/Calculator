@@ -3,7 +3,7 @@ class TrafficLight
 {
     public static void main(String[] args) 
     {
-        System.out.println("Sana Tasneem Azimudin-2024503007");
+        System.out.println("Sana Tasneem Azimudin=2024503007");
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the color of the traffic light (red, yellow, or green): ");
         String input = scanner.nextLine().toLowerCase();
@@ -23,4 +23,5 @@ class TrafficLight
                 break;
 }
 }
+
 }
