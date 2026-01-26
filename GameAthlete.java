@@ -58,7 +58,7 @@ class GameAthlete {
 
     }
     public static void main(String[] args) {
-        System.out.println("Sana Tasneem Azimudin=2024503007");
+        System.out.println("Sana Tasneem Azimudin-2024503007");
         GameAthlete athlete1 = new GameAthlete("Alice", 100, 12, 100);
         GameAthlete athlete2 = new GameAthlete("Bob", 90, 15, 100);
         GameAthlete athlete3 = new GameAthlete();
@@ -78,3 +78,4 @@ class GameAthlete {
     }
 
 }
+
