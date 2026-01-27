@@ -3,12 +3,13 @@ class Obj {
         System.out.println("The Bank object");
 }
     public static void main(String args[]) {
-        System.out.println("Sana Tasneem Azimudin=2024503007");
+        System.out.println("Sana Tasneem Azimudin-2024503007");
         Obj obj = new Obj();
         obj.display();
 }
 
 }
+
 
 
 
