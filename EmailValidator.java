@@ -21,11 +21,12 @@ class EmailValidator{
         System.out.println("Domain: " + domain);
     }
     public static void main(String[] args) {
-         System.out.println("Sana Tasneem Azimudin-2024503007");
+         System.out.println("Sana Tasneem Azimudin=2024503007");
         String email = "sana_tasneem+azimudin@university.edu";
         validateEmail(email);
     }
 }
+
 
 
 
