@@ -25,7 +25,7 @@ class Bank
     }
     public static void main(String[] args) 
     {
-        System.out.println("Sana Tasneem Azimudin=2024503007");
+        System.out.println("Sana Tasneem Azimudin-2024503007");
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter the number of accounts:");
         totalAccounts = s.nextInt();
@@ -47,5 +47,6 @@ class Bank
 
     }
 }
+
 
 
