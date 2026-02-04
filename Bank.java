@@ -18,7 +18,7 @@ class Bank
 
     void display() 
     {
-        System.out.println("The Total accounts created are: " + totalAccounts);
+        System.out.println("The Total number of accounts created are: " + totalAccounts);
         System.out.println("Account Number: " + accountNumber);
         System.out.println("Balance: " + balance);
         System.out.println("Deposit: " + deposit);
@@ -47,6 +47,7 @@ class Bank
 
     }
 }
+
 
 
 
