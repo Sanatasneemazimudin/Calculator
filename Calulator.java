@@ -29,7 +29,7 @@ public class Calculator
                 if (num2 != 0) 
                 {
                     result = num1 / num2;
-                    System.out.println("Result: " + result);
+                    System.out.println("Results= " + result);
                 } 
                 else 
                 {
