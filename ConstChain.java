@@ -14,7 +14,7 @@ class ConstChain {
         System.out.println("Withdraw: " + widr);
 }
     public static void main(String[] args) {
-         System.out.println("Sana Tasneem Azimudin=2024503007");
+         System.out.println("Sana Tasneem Azimudin-2024503007");
         ConstChain ob = new ConstChain();
         ob.display();
 }
