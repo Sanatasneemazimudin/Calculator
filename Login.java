@@ -6,7 +6,7 @@ class Login
         System.out.println("Sana Tasneem Azimudin=2024503007");
         int count = 0;
         Scanner s = new Scanner(System.in);
-        System.out.println("How many times are you going to login in?");
+        System.out.println("How many times will you login in?");
         int log = s.nextInt();
         for (int i = 0; i < log; i++) 
         {
