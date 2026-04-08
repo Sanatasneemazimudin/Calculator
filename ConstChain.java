@@ -11,7 +11,7 @@ class ConstChain {
     void display() {
         System.out.println("Account Number: " + acno);
         System.out.println("Balance: " + balan);
-        System.out.println("Withdraw: " + widr);
+        System.out.println("Withdraw=" + widr);
 }
     public static void main(String[] args) {
          System.out.println("Sana Tasneem Azimudin-2024503007");
