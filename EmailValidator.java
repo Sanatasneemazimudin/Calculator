@@ -9,7 +9,7 @@ class EmailValidator{
         String username = email.substring(0, atIndex);
         String domain = email.substring(atIndex + 1);
         if (username.length() > 25 || !username.matches("[a-zA-Z0-9_\\-+]+")) {
-            System.out.println("Invalid email: username must be ≤ 25 characters and contain only letters, digits, '_', '-', '+'.");
+            System.out.println("Invalid email: username be ≤ 25 characters and contain only letters, digits, '_', '-', '+'.");
             return;
         }
         if (!(domain.endsWith(".com") || domain.endsWith(".in") || domain.endsWith(".edu"))) {
