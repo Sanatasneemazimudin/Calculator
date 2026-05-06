@@ -3,7 +3,7 @@ class EmailValidator{
         int atIndex = email.indexOf('@');
         int lastAtIndex = email.lastIndexOf('@');
         if (atIndex == -1 || atIndex != lastAtIndex) {
-            System.out.println("Invalid email: must contain exactly one '@' symbol.");
+            System.out.println("Invalid email!!!: must contain exactly one '@' symbol.");
             return;
         }
         String username = email.substring(0, atIndex);
